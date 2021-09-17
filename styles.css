@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+*{
+    margin: 5% 8%;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body{
+    font-family: 'Roboto Condensed', sans-serif;}
+.container{
+        width:55vw;
+        height:50vh;    
+        border-radius: 20px;
+        padding-top: 5%;
+        background-color:rgb(208, 216, 228);     
+    }
+h1{
+        text-align: center;}
+.opcion select, input, button{
+        width: 12vw;
+        height: 7vh;
+    }
+div.opcion{
+        margin: 1%;
+        box-shadow: 2px 4px 8px rgb(18, 70, 66);
+        width: 14vw;
+        display: inline-block;
+        background-color: rgb(166, 213, 228);       
+}
+.monto{
+    text-align: center;
+}
+form button:hover{
+	cursor:pointer;
+    background-color:rgb(157, 207, 179);
+}

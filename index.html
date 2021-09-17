@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./styles.css">
+        <title>Calculadora de Divisas</title>
+</head>
+
+<body>
+    <h1>Conversor de divisas</h1>
+    <form id="formulario" class="container">    
+        <div >
+            <div class="opcion">
+            <input type="number" id="valor" placeholder="Ingrese el valor" class="form-control">           
+        </div>
+        <div class="opcion">
+            <select id="moneda1" class="form-select">
+            </select>
+        </div>
+        <div class="opcion">
+            <select id="moneda2" class="form-select">
+            </select>
+        </div>
+        <button type="submit"  id="total"><strong>Convertir</strong></button>
+        <div class="opcion">
+            <label id="resultado"></label>
+        </div>
+    </form>
+    <script src="./script.js"></script>   
+</body>
+</html>
